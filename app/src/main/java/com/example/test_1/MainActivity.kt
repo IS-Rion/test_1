@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         super.onCreate(savedInstanceState)
         Log.d("aaa", "hello")
+        Log.d("bbb", "hello1")
+        Log.d("ccc", "hello11")
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
