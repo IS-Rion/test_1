@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         Log.d("aaa", "hello")
         Log.d("bbb", "hello1")
         Log.d("ccc", "hello11")
+        Log.d("ccc", "hello-from-FKS")
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
